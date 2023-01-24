@@ -4,6 +4,7 @@ const UnitedStates = (props) => {
     <div>
       <h1>United States</h1>
       <div>Capital City: Washington D.C.</div>
+      <div>Languages: {props.languages}</div>
     </div>
     </>
    );

@@ -6,6 +6,7 @@ const Canada = (props) => {
       <div>
         Capital City: Ottawa
       </div>
+      <div>Languages: {props.languages}</div>
     </div>
     </>
   );

@@ -5,9 +5,9 @@ import Mexico from "./Mexico";
 const CountriesOfNAmerica = (props) => {
   return ( 
     <>
-    <Canada />
+    <Canada languages={'English, French'}/>
     <UnitedStates />
-    <Mexico />
+    <Mexico languages={'Spanish'}/>
     </>
   );
 }

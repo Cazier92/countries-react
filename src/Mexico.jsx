@@ -4,6 +4,7 @@ const Mexico = (props) => {
     <div>
       <h1>Mexico</h1>
       <div>Capital City: Mexico City</div>
+      <div>Languages: {props.languages}</div>
     </div>
     </>
    );
